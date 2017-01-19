@@ -1,5 +1,61 @@
-/* line 3, ../sass/main.scss */
-h1 {
-  color: red;
-  background-color: #fff;
+/* line 14, ../sass/main.scss */
+.body {
+  margin: 0;
+  font: 20px Arial, sans-serif;
+}
+/* line 17, ../sass/main.scss */
+.body__fixedContent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* line 24, ../sass/main.scss */
+.calculator {
+  width: 900px;
+  height: 300px;
+  background-color: #eee;
+}
+/* line 28, ../sass/main.scss */
+.calculator__header {
+  margin-top: 60px;
+}
+/* line 31, ../sass/main.scss */
+.calculator__description {
+  margin-top: 40px;
+}
+/* line 34, ../sass/main.scss */
+.calculator__mainButton {
+  margin-top: 40px;
+}
+
+/* line 39, ../sass/main.scss */
+.header {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* line 44, ../sass/main.scss */
+.content {
+  text-align: center;
+}
+
+/* line 48, ../sass/main.scss */
+.button {
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border: 0;
+  outline: 0;
+  height: 30px;
+  background-color: #555;
+  color: #fff;
+}
+/* line 55, ../sass/main.scss */
+.button:hover {
+  color: #0ff;
 }

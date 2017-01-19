@@ -20,14 +20,14 @@ function startCalc() {
 
     function getOperator() {
         var tempValue;
-        const operators = ["+", "-", "/", "*"];
+        var operators = ["+", "-", "/", "*"];
 
         tempValue = prompt("Введіть оператор:" +
                 "\n\"+\" - додавання" +
                 "\n\"-\" - віднімання" +
                 "\n\"/\" - ділення" +
                 "\n\"*\" - множення", "");
-        if (operators.some(v => v == tempValue)) return tempValue;
+        if (operators.some(function(v){return v === tempValue;})) return tempValue;
         else return null;
     }
 

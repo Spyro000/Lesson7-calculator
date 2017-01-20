@@ -44,18 +44,20 @@
 }
 
 /* line 48, ../sass/main.scss */
-.button {
+.link {
   -moz-transition: 1s;
   -o-transition: 1s;
   -webkit-transition: 1s;
   transition: 1s;
+  text-decoration: none;
+  padding: 10px;
   border: 0;
   outline: 0;
   height: 30px;
   background-color: #555;
   color: #fff;
 }
-/* line 55, ../sass/main.scss */
-.button:hover {
+/* line 57, ../sass/main.scss */
+.link:hover {
   color: #0ff;
 }

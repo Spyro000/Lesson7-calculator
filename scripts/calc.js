@@ -27,7 +27,7 @@ function startCalc() {
                 "\n\"-\" - віднімання" +
                 "\n\"/\" - ділення" +
                 "\n\"*\" - множення", "");
-        if (operators.some(function(v){return v === tempValue;})) return tempValue;
+        if (operators.some(function(v) {return v === tempValue;})) return tempValue;
         else return null;
     }
 

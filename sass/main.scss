@@ -45,8 +45,10 @@ $main-font: 20px Arial, sans-serif;
   text-align: center;
 }
 
-.button {
+.link {
   @include transition(1s);
+  text-decoration: none;
+  padding: 10px;
   border: 0;
   outline: 0;
   height: 30px;
